@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://smartcontacts.infinityfreeapp.com/FRONT/CSS/style.css">
+    <script src="./API/savecontact.js"></script>
+    <title>Cadastro de Usuário</title>
+</head>
+<body>
+
+    <div class="testbox">
+        <h1>Cadastrar Usuário</h1>
+        <form action="/">
+            <label id="icon" for="name"><i class="icon-user "></i></label>
+            <input type="text" name="name" id="inputname" placeholder="Nome" required/>
+            <label id="icon" for="email"><i class="icon-envelope"></i></label>
+            <input type="text" name="name" id="inputemail" placeholder="E-mail" required/>
+            <label id="icon" for="phone"><i class="icon-phone"></i></label>
+            <input type="text" name="name" id="inputtel" placeholder="Telefone" required/>
+            <div id="submits">    
+                <input type="button" class="button" onclick="pegar()" value="Enviar">
+                <a href="./FRONT/tablecontact.html" class="button">Editar</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
